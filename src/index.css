@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('/src/Oswald/static/Oswald-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OswaldLight';
+    src: url('/src/Oswald/static/Oswald-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
