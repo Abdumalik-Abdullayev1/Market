@@ -1,4 +1,4 @@
-import HeroImg from '../assets/HeroImg.png'
+import HeroImg from '../assets/heroImg.png'
 import HeroImg2 from '../assets/heroImg2.png'
 import iphone12 from '../assets/group329rb.png'
 import iphone13 from '../assets/group329.png'
