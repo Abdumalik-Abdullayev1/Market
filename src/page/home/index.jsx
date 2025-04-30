@@ -44,7 +44,7 @@ const Index = () => {
             style={{ fontFamily: 'Oswald' }}
             className='border-b-2 border-black text-xl flex items-center p-1'
           >
-            <p className='md:hidden'>Ko'proq</p>
+            <button onClick={() => navigate('/shoes')} className='md:hidden'>Ko'proq</button>
             <button onClick={() => navigate('/shoes')} className='hidden md:block'>Ko'proq maxsulot</button>
             <HiOutlineChevronRight />
           </h4>
@@ -99,7 +99,7 @@ const Index = () => {
             style={{ fontFamily: 'Oswald' }}
             className='border-b-2 border-black text-xl flex items-center p-1'
           >
-            <p className='md:hidden'>Ko'proq</p>
+            <button onClick={() => navigate('/clothes')} className='md:hidden'>Ko'proq</button>
             <button onClick={() => navigate('/clothes')} className='hidden md:block'>Ko'proq maxsulot</button>
             <HiOutlineChevronRight />
           </h4>
@@ -154,7 +154,7 @@ const Index = () => {
             style={{ fontFamily: 'Oswald' }}
             className='border-b-2 border-black text-xl flex items-center p-1'
           >
-            <p className='md:hidden'>Ko'proq</p>
+            <button onClick={() => navigate('/others')} className='md:hidden'>Ko'proq</button>
             <button onClick={() => navigate('/others')} className='hidden md:block'>Ko'proq maxsulot</button>
             <HiOutlineChevronRight />
           </h4>
