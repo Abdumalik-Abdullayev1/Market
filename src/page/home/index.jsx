@@ -33,6 +33,8 @@ const Index = () => {
           </div>
         </div>
       </div>
+      {/* oyoq kiyimlar */}
+
       <div className='px-5 xl:px-20'>
         <div className='flex items-center justify-between'>
           <h3 style={{ fontFamily: 'Oswald' }}
@@ -49,45 +51,47 @@ const Index = () => {
             <HiOutlineChevronRight />
           </h4>
         </div>
-        <div className='grid grid-cols-2 xl:grid-cols-4 gap-2 my-4'>
-          <div className='border-2'>
-            <div className='bg-green-500 flex justify-end h-[75%] relative'>
+        <div className='grid grid-cols-2 sm:grid-cols-3 md992:grid-cols-4 gap-2 my-4'>
+          <button onClick={() => navigate('/detail')} className='border-2 rounded-lg flex flex-col'>
+            <div className='bg-green-500 flex justify-end h-[75%] relative rounded-t-lg'>
               <button><ImStarEmpty className='absolute top-4 right-4' /></button>
             </div>
-            <div className='p-2'>
+            <div className='p-2 text-left'>
               <p>Product nomi</p>
               <p>Product narxi</p>
             </div>
-          </div>
-          <div className='border-2 h-[250px] xl:h-[350px]'>
-            <div className='bg-green-500 flex justify-end h-[75%] relative'>
+          </button>
+          <button onClick={() => navigate('/detail')} className='border-2 h-[250px] xl:h-[350px] rounded-lg flex flex-col'>
+            <div className='bg-green-500 flex justify-end h-[75%] relative rounded-t-lg'>
               <button><ImStarEmpty className='absolute top-4 right-4' /></button>
             </div>
-            <div className='p-2'>
+            <div className='p-2 text-left'>
               <p>Product nomi</p>
               <p>Product narxi</p>
             </div>
-          </div>
-          <div className='border-2 h-[250px] xl:h-[350px] hidden xl:block'>
-            <div className='bg-green-500 flex justify-end h-[75%] relative'>
+          </button>
+          <button onClick={() => navigate('/detail')} className='border-2 sm:flex flex-col h-[250px] xl:h-[350px] hidden rounded-lg'>
+            <div className='bg-green-500 flex justify-end h-[75%] relative rounded-t-lg'>
               <button><ImStarEmpty className='absolute top-4 right-4' /></button>
             </div>
-            <div className='p-2'>
+            <div className='p-2 text-left'>
               <p>Product nomi</p>
               <p>Product narxi</p>
             </div>
-          </div>
-          <div className='border-2 h-[250px] xl:h-[350px] hidden xl:block'>
-            <div className='bg-green-500 flex justify-end h-[75%] relative'>
+          </button>
+          <button onClick={() => navigate('/detail')} className='border-2 h-[250px] xl:h-[350px] hidden md992:flex flex-col rounded-lg'>
+            <div className='bg-green-500 flex justify-end h-[75%] relative rounded-t-lg'>
               <button><ImStarEmpty className='absolute top-4 right-4' /></button>
             </div>
-            <div className='p-2'>
+            <div className='p-2 text-left'>
               <p>Product nomi</p>
               <p>Product narxi</p>
             </div>
-          </div>
+          </button>
         </div>
       </div>
+
+      {/* kiyimlar */}
       <div className='px-5 xl:px-20'>
         <div className='flex items-center justify-between'>
           <h3 style={{ fontFamily: 'Oswald' }}
@@ -99,14 +103,14 @@ const Index = () => {
             style={{ fontFamily: 'Oswald' }}
             className='border-b-2 border-black text-xl flex items-center p-1'
           >
-            <button onClick={() => navigate('/clothes')} className='md:hidden'>Ko'proq</button>
-            <button onClick={() => navigate('/clothes')} className='hidden md:block'>Ko'proq maxsulot</button>
+            <button onClick={() => navigate('/shoes')} className='md:hidden'>Ko'proq</button>
+            <button onClick={() => navigate('/shoes')} className='hidden md:block'>Ko'proq maxsulot</button>
             <HiOutlineChevronRight />
           </h4>
         </div>
-        <div className='grid grid-cols-2 xl:grid-cols-4 gap-2 my-4 xl:h-[350px]'>
-          <div className='border-2'>
-            <div className='bg-green-500 flex justify-end h-[75%] relative'>
+        <div className='grid grid-cols-2 sm:grid-cols-3 md992:grid-cols-4 gap-2 my-4'>
+          <div className='border-2 rounded-lg'>
+            <div className='bg-green-500 flex justify-end h-[75%] relative rounded-t-lg'>
               <button><ImStarEmpty className='absolute top-4 right-4' /></button>
             </div>
             <div className='p-2'>
@@ -114,8 +118,8 @@ const Index = () => {
               <p>Product narxi</p>
             </div>
           </div>
-          <div className='border-2 h-[250px] xl:h-[350px]'>
-            <div className='bg-green-500 flex justify-end h-[75%] relative'>
+          <div className='border-2 rounded-lg h-[250px] xl:h-[350px]'>
+            <div className='bg-green-500 flex justify-end h-[75%] relative rounded-t-lg'>
               <button><ImStarEmpty className='absolute top-4 right-4' /></button>
             </div>
             <div className='p-2'>
@@ -123,8 +127,8 @@ const Index = () => {
               <p>Product narxi</p>
             </div>
           </div>
-          <div className='border-2 h-[250px] hidden xl:block xl:h-[350px]'>
-            <div className='bg-green-500 flex justify-end h-[75%] relative'>
+          <div className='border-2 rounded-lg h-[250px] xl:h-[350px] hidden sm:block'>
+            <div className='bg-green-500 flex justify-end h-[75%] relative rounded-t-lg'>
               <button><ImStarEmpty className='absolute top-4 right-4' /></button>
             </div>
             <div className='p-2'>
@@ -132,8 +136,8 @@ const Index = () => {
               <p>Product narxi</p>
             </div>
           </div>
-          <div className='border-2 h-[250px] hidden xl:block xl:h-[350px]'>
-            <div className='bg-green-500 flex justify-end h-[75%] relative'>
+          <div className='border-2 rounded-lg h-[250px] xl:h-[350px] hidden md992:block'>
+            <div className='bg-green-500 flex justify-end h-[75%] relative rounded-t-lg'>
               <button><ImStarEmpty className='absolute top-4 right-4' /></button>
             </div>
             <div className='p-2'>
@@ -143,6 +147,7 @@ const Index = () => {
           </div>
         </div>
       </div>
+      {/* aksesuarlar */}
       <div className='px-5 xl:px-20'>
         <div className='flex items-center justify-between'>
           <h3 style={{ fontFamily: 'Oswald' }}
@@ -154,14 +159,14 @@ const Index = () => {
             style={{ fontFamily: 'Oswald' }}
             className='border-b-2 border-black text-xl flex items-center p-1'
           >
-            <button onClick={() => navigate('/others')} className='md:hidden'>Ko'proq</button>
-            <button onClick={() => navigate('/others')} className='hidden md:block'>Ko'proq maxsulot</button>
+            <button onClick={() => navigate('/shoes')} className='md:hidden'>Ko'proq</button>
+            <button onClick={() => navigate('/shoes')} className='hidden md:block'>Ko'proq maxsulot</button>
             <HiOutlineChevronRight />
           </h4>
         </div>
-        <div className='grid grid-cols-2 xl:grid-cols-4 gap-2 my-4'>
-          <div className='border-2'>
-            <div className='bg-green-500 flex justify-end h-[75%] relative'>
+        <div className='grid grid-cols-2 sm:grid-cols-3 md992:grid-cols-4 gap-2 my-4'>
+          <div className='border-2 rounded-lg'>
+            <div className='bg-green-500 flex justify-end h-[75%] relative rounded-t-lg'>
               <button><ImStarEmpty className='absolute top-4 right-4' /></button>
             </div>
             <div className='p-2'>
@@ -169,8 +174,8 @@ const Index = () => {
               <p>Product narxi</p>
             </div>
           </div>
-          <div className='border-2 h-[250px] xl:h-[350px]'>
-            <div className='bg-green-500 flex justify-end h-[75%] relative'>
+          <div className='border-2 rounded-lg h-[250px] xl:h-[350px]'>
+            <div className='bg-green-500 flex justify-end h-[75%] relative rounded-t-lg'>
               <button><ImStarEmpty className='absolute top-4 right-4' /></button>
             </div>
             <div className='p-2'>
@@ -178,8 +183,8 @@ const Index = () => {
               <p>Product narxi</p>
             </div>
           </div>
-          <div className='border-2 h-[250px] hidden xl:block xl:h-[350px]'>
-            <div className='bg-green-500 flex justify-end h-[75%] relative'>
+          <div className='border-2 rounded-lg h-[250px] xl:h-[350px] hidden sm:block'>
+            <div className='bg-green-500 flex justify-end h-[75%] relative rounded-t-lg'>
               <button><ImStarEmpty className='absolute top-4 right-4' /></button>
             </div>
             <div className='p-2'>
@@ -187,8 +192,8 @@ const Index = () => {
               <p>Product narxi</p>
             </div>
           </div>
-          <div className='border-2 h-[250px] hidden xl:block xl:h-[350px]'>
-            <div className='bg-green-500 flex justify-end h-[75%] relative'>
+          <div className='border-2 rounded-lg h-[250px] xl:h-[350px] hidden md992:block'>
+            <div className='bg-green-500 flex justify-end h-[75%] relative rounded-t-lg'>
               <button><ImStarEmpty className='absolute top-4 right-4' /></button>
             </div>
             <div className='p-2'>
@@ -198,6 +203,7 @@ const Index = () => {
           </div>
         </div>
       </div>
+
       <div className='px-5 xl:px-20 my-14 text-white'>
         <div className='w-full p-5 sm:p-8 xl:p-16 bg-[rgb(22,156,248)] rounded-lg flex flex-col gap-3 relative'>
           <div className='grid lg:grid-cols-2'>

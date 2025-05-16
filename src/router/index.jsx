@@ -1,6 +1,6 @@
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom";
 import App from '../App';
-import { Home, Shoes, Clothes, Others, Detail } from "../page";
+import { Home, Shoes, Clothes, Others, Detail, Profile } from "../page";
 
 const Router = () => {
   const router = createBrowserRouter(
@@ -10,9 +10,11 @@ const Router = () => {
         <Route path="shoes" element={<Shoes />} />
         <Route path="clothes" element={<Clothes />} />
         <Route path="others" element={<Others />} />
+        <Route path="detail" element={<Detail />} />
         <Route path="/shoes/detail" element={<Detail />} />
         <Route path="/clothes/detail" element={<Detail />} />
         <Route path="/others/detail" element={<Detail />} />
+        <Route path="/profile" element={<Profile />} />
       </Route>
     )
   );

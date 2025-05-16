@@ -1,9 +1,9 @@
 import React from 'react'
 import { HiOutlineChevronRight } from "react-icons/hi";
-import LogoFooter from '../../assets/LogoFooter.png'
-import telegram from '../../assets/telegram.png'
-import whatsapp from '../../assets/whatsapp.png'
-import vk from '../../assets/vk.png'
+import LogoFooter from '../../assets/LogoFooter.webp'
+import telegram from '../../assets/telegram.webp'
+import whatsapp from '../../assets/whatsapp.webp'
+import vk from '../../assets/vk.webp'
 
 const Index = () => {
     return (
@@ -57,12 +57,12 @@ const Index = () => {
                         <li>+7 993 608 38 85</li>
                         <li>Messengerlar</li>
                         <li className='flex gap-1'>
-                            <img src={telegram} alt="" />
-                            <img src={whatsapp} alt="" />
+                            <img src={telegram} alt=""  className='w-[25px] h-[25px]' />
+                            <img src={whatsapp} alt=""  className='w-[25px] h-[25px]'/>
                         </li>
                         <li>Bizning ijtimoiy tarmoqlarimiz</li>
                         <li>
-                            <img src={vk} alt="" />
+                            <img src={vk} alt=""  className='w-[25px] h-[25px]'/>
                         </li>
                     </ul>
                     <div className='hidden xl:block w-1/4'>
@@ -72,7 +72,7 @@ const Index = () => {
                         </div>
                         <div className='flex justify-between items-center border-b-2 my-5'>
                             <input type="text" placeholder='Email pochtangiz' className='bg-[rgb(18,18,20)] w-full outline-none text-white my-3' />
-                            <p className='w-[40px] h-[40px] rounded-[50%] flex justify-center items-center bg-slate-100'>
+                            <p className='xl:w-[33px] xl:h-[30px] w-[40px] rounded-[50%] flex justify-center items-center bg-slate-100'>
                                 <HiOutlineChevronRight />
                             </p>
                         </div>
@@ -101,7 +101,7 @@ const Index = () => {
                 </div>
                 <div className='flex justify-between items-center px-3 border-b-2'>
                     <input type="text" placeholder='Email pochtangiz' className='bg-[rgb(18,18,20)] w-full outline-none p-2 text-white my-3' />
-                    <p className='w-[40px] h-[40px] rounded-[50%] flex justify-center items-center bg-slate-100'>
+                    <p className='w-[40px] h-[35px] sm:h-[40px] md992:w-[45px] rounded-[50%] flex justify-center items-center bg-slate-100'>
                         <HiOutlineChevronRight />
                     </p>
                 </div>
