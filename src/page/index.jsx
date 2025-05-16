@@ -4,5 +4,7 @@ import Clothes from './clothes'
 import Others from './others'
 import Detail from './detail'
 import Profile from './profile'
+import EditProfile from './edit-profile'
+import HistoryOrders from './history-orders'
 
-export { Home, Shoes, Clothes, Others, Detail, Profile }
+export { Home, Shoes, Clothes, Others, Detail, Profile, EditProfile, HistoryOrders }

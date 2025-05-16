@@ -1,6 +1,6 @@
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom";
 import App from '../App';
-import { Home, Shoes, Clothes, Others, Detail, Profile } from "../page";
+import { Home, Shoes, Clothes, Others, Detail, Profile, EditProfile, HistoryOrders } from "../page";
 
 const Router = () => {
   const router = createBrowserRouter(
@@ -15,6 +15,8 @@ const Router = () => {
         <Route path="/clothes/detail" element={<Detail />} />
         <Route path="/others/detail" element={<Detail />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/edit-profile" element={<EditProfile />} />
+        <Route path="/history-orders" element={<HistoryOrders />} />
       </Route>
     )
   );
