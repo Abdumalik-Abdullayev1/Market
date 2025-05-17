@@ -6,5 +6,16 @@ import Detail from './detail'
 import Profile from './profile'
 import EditProfile from './edit-profile'
 import HistoryOrders from './history-orders'
+import Address from './address'
 
-export { Home, Shoes, Clothes, Others, Detail, Profile, EditProfile, HistoryOrders }
+export {
+    Home,
+    Shoes,
+    Clothes,
+    Others,
+    Detail,
+    Profile,
+    EditProfile,
+    HistoryOrders,
+    Address
+}

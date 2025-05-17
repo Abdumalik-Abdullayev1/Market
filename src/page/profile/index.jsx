@@ -55,7 +55,7 @@ const Index = () => {
                             <p className='flex justify-center text-3xl'><VscChecklist /></p>
                             <p style={{ fontFamily: 'OswaldLight' }}>Buyurtmalar</p>
                         </button>
-                        <button className='border text-center p-10 max-w-xs hover:bg-black hover:text-white duration-500 rounded-lg'>
+                        <button onClick={()=> navigate('/address')} className='border text-center p-10 max-w-xs hover:bg-black hover:text-white duration-500 rounded-lg'>
                             <p className='flex justify-center text-3xl'><VscLocation /></p>
                             <p style={{ fontFamily: 'OswaldLight' }}>Bizning manzil</p>
                         </button>
