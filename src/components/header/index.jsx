@@ -80,6 +80,7 @@ const Index = () => {
                         <HiOutlineShoppingBag style={{ color: "white", fontSize: "25px" }} />
                         <span className='text-slate-400 text-sm hidden md:block'>11 899 ₽</span>
                     </div>
+                    <button onClick={() => navigate('/login')} className='text-white'>Login</button>
                 </div>
             </div>
         </div>

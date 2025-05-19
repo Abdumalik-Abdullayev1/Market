@@ -60,7 +60,7 @@ const Index = () => {
                                 <DropdownMenuItem onClick={()=> navigate('/history-orders')}>Buyurtmalar</DropdownMenuItem>
                                 <DropdownMenuItem onClick={()=> navigate('/address')}>Joylashuv</DropdownMenuItem>
                                 <DropdownMenuItem onClick={()=> navigate('/edit-password')}>Parol</DropdownMenuItem>
-                                <DropdownMenuItem>Chiqish</DropdownMenuItem>
+                                <DropdownMenuItem >Chiqish</DropdownMenuItem>
                             </DropdownMenuContent>
                         </DropdownMenu>
                     </div>

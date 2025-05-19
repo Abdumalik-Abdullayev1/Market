@@ -9,6 +9,8 @@ import Address from './address'
 import EditProfile from './edit-profile'
 import EditAddress from './edit-address'
 import EditPassword from './edit-password'
+import Login from './login'
+import Register from './register'
 
 export {
     Home,
@@ -21,5 +23,7 @@ export {
     Address,
     EditProfile,
     EditAddress,
-    EditPassword
+    EditPassword,
+    Login,
+    Register
 }

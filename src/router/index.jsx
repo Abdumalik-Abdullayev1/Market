@@ -12,7 +12,9 @@ import {
   HistoryOrders,
   Address,
   EditAddress,
-  EditPassword
+  EditPassword,
+  Login,
+  Register
 } from "../page";
 
 const Router = () => {
@@ -33,6 +35,8 @@ const Router = () => {
         <Route path="/address" element={<Address />} />
         <Route path="/edit-address" element={<EditAddress />} />
         <Route path="/edit-password" element={<EditPassword />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
       </Route>
     )
   );
