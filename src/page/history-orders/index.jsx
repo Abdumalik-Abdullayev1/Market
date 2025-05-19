@@ -61,7 +61,7 @@ const Index = () => {
                                 <DropdownMenuContent>
                                     <DropdownMenuLabel>Buyurtmalar</DropdownMenuLabel>
                                     <DropdownMenuSeparator />
-                                    <DropdownMenuItem>Profil</DropdownMenuItem>
+                                    <DropdownMenuItem onClick={()=> navigate('/profile')}>Profil</DropdownMenuItem>
                                     <DropdownMenuItem>Profilni tahrirlash</DropdownMenuItem>
                                     <DropdownMenuItem>Joylashuv</DropdownMenuItem>
                                     <DropdownMenuItem>Parol</DropdownMenuItem>
