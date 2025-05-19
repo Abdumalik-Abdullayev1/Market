@@ -7,6 +7,7 @@ import Profile from './profile'
 import EditProfile from './edit-profile'
 import HistoryOrders from './history-orders'
 import Address from './address'
+import EditAddress from './edit-address'
 
 export {
     Home,
@@ -17,5 +18,6 @@ export {
     Profile,
     EditProfile,
     HistoryOrders,
-    Address
+    Address,
+    EditAddress
 }

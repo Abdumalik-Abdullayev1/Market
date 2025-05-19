@@ -15,7 +15,7 @@ const Index = () => {
             <h1 className='font-bold text-5xl' style={{ fontFamily: "Oswald" }}>Profile</h1>
             <div className='grid lg:grid-cols-4 gap-5'>
                 <div className='border rounded-md max-w-xs p-5 my-5 space-y-3 text-xl hidden lg:block'>
-                    <button onClick={() => navigate('/profile')} className='flex items-center gap-3 hover:bg-black hover:text-white duration-500 rounded-lg p-2 w-full' style={{ fontFamily: "OswaldLight", font: "bold" }}>
+                    <button onClick={() => navigate('/profile')} className='flex items-center gap-3 hover:bg-black hover:text-white duration-500 rounded-lg p-2 w-full font-extrabold' style={{ fontFamily: "OswaldLight", font: "bold" }}>
                         <BiUser />
                         <span>Profil</span>
                     </button>
@@ -27,13 +27,9 @@ const Index = () => {
                         <RxHamburgerMenu />
                         <span>Tarix</span>
                     </button>
-                    <button className='flex items-center gap-3 hover:bg-black hover:text-white duration-500 rounded-lg p-2 w-full text-slate-400' style={{ fontFamily: "OswaldLight", font: "extra bold" }}>
+                    <button onClick={()=> navigate('/address')} className='flex items-center gap-3 hover:bg-black hover:text-white duration-500 rounded-lg p-2 w-full text-slate-400' style={{ fontFamily: "OswaldLight", font: "extra bold" }}>
                         <VscLocation />
                         <span>Joylashuv</span>
-                    </button>
-                    <button className='flex items-center gap-3 hover:bg-black hover:text-white duration-500 rounded-lg p-2 w-full text-slate-400' style={{ fontFamily: "OswaldLight", font: "extra bold" }}>
-                        <GrMapLocation />
-                        <span>Joylashuvni tahrirlash</span>
                     </button>
                     <button className='flex items-center gap-3 hover:bg-black hover:text-white duration-500 rounded-lg p-2 w-full text-slate-400' style={{ fontFamily: "OswaldLight", font: "extra bold" }}>
                         <RxLockOpen2 />
@@ -67,7 +63,7 @@ const Index = () => {
                             <p className='flex justify-center text-3xl'><ImStarEmpty /></p>
                             <p style={{ fontFamily: 'OswaldLight' }}>Tanlangan mahsulotlar</p>
                         </button>
-                        <button className='border text-center p-10 max-w-xs hover:bg-black hover:text-white duration-500 rounded-lg lg:hidden'>
+                        <button onClick={()=> navigate('/address')} className='border text-center p-10 max-w-xs hover:bg-black hover:text-white duration-500 rounded-lg lg:hidden'>
                             <p className='flex justify-center text-3xl'><GrMapLocation /></p>
                             <p style={{ fontFamily: 'OswaldLight' }}>Joylashuvni tahrirlash</p>
                         </button>
