@@ -4,10 +4,11 @@ import Clothes from './clothes'
 import Others from './others'
 import Detail from './detail'
 import Profile from './profile'
-import EditProfile from './edit-profile'
 import HistoryOrders from './history-orders'
 import Address from './address'
+import EditProfile from './edit-profile'
 import EditAddress from './edit-address'
+import EditPassword from './edit-password'
 
 export {
     Home,
@@ -16,8 +17,9 @@ export {
     Others,
     Detail,
     Profile,
-    EditProfile,
     HistoryOrders,
     Address,
-    EditAddress
+    EditProfile,
+    EditAddress,
+    EditPassword
 }

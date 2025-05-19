@@ -31,7 +31,7 @@ const Index = () => {
                         <RiUserSettingsLine />
                         <span>Profilni tahrirlash</span>
                     </button>
-                    <button className='flex items-center gap-3 hover:bg-black hover:text-white duration-500 rounded-lg p-2 w-full font-extrabold' style={{ fontFamily: "OswaldLight", font: "extra bold" }}>
+                    <button className='flex items-center gap-3 hover:bg-black hover:text-white duration-500 rounded-lg p-2 w-full font-bold' style={{ fontFamily: "OswaldLight", font: "extra bold" }}>
                         <RxHamburgerMenu />
                         <span>Tarix</span>
                     </button>
@@ -66,13 +66,13 @@ const Index = () => {
                     </div>
                     <div className='grid grid-cols-1 sm500:grid-cols-2 md:grid-cols-3 p-5 gap-5'>
                         <div className='border p-3 flex justify-between py-5 rounded-lg'>
-                            <div className='space-y-1 font-extrabold'>
+                            <div className='space-y-1 font-bold'>
                                 <p>T/r</p>
                                 <p>Kuni</p>
                                 <p>Tasnif</p>
                                 <p>Umumiy</p>
                             </div>
-                            <div className='space-y-1'>
+                            <div className='space-y-1 text-slate-400'>
                                 <p>#3456</p>
                                 <p>16/05/2025</p>
                                 <p>Yuborilgan</p>
@@ -80,13 +80,13 @@ const Index = () => {
                             </div>
                         </div>
                         <div className='border p-3 flex justify-between py-5 rounded-lg'>
-                            <div className='space-y-1 font-extrabold'>
+                            <div className='space-y-1 font-bold'>
                                 <p>T/r</p>
                                 <p>Kuni</p>
                                 <p>Tasnif</p>
                                 <p>Umumiy</p>
                             </div>
-                            <div className='space-y-1'>
+                            <div className='space-y-1 text-slate-400'>
                                 <p>#3456</p>
                                 <p>16/05/2025</p>
                                 <p>Yuborilgan</p>
@@ -94,13 +94,13 @@ const Index = () => {
                             </div>
                         </div>
                         <div className='border p-3 flex justify-between py-5 rounded-lg'>
-                            <div className='space-y-1 font-extrabold'>
+                            <div className='space-y-1 font-bold'>
                                 <p>T/r</p>
                                 <p>Kuni</p>
                                 <p>Tasnif</p>
                                 <p>Umumiy</p>
                             </div>
-                            <div className='space-y-1'>
+                            <div className='space-y-1 text-slate-400'>
                                 <p>#3456</p>
                                 <p>16/05/2025</p>
                                 <p>Yuborilgan</p>
@@ -108,13 +108,13 @@ const Index = () => {
                             </div>
                         </div>
                         <div className='border p-3 flex justify-between py-5 rounded-lg'>
-                            <div className='space-y-1 font-extrabold'>
+                            <div className='space-y-1 font-bold'>
                                 <p>T/r</p>
                                 <p>Kuni</p>
                                 <p>Tasnif</p>
                                 <p>Umumiy</p>
                             </div>
-                            <div className='space-y-1'>
+                            <div className='space-y-1 text-slate-400'>
                                 <p>#3456</p>
                                 <p>16/05/2025</p>
                                 <p>Yuborilgan</p>
@@ -122,13 +122,13 @@ const Index = () => {
                             </div>
                         </div>
                         <div className='border p-3 flex justify-between py-5 rounded-lg'>
-                            <div className='space-y-1 font-extrabold'>
+                            <div className='space-y-1 font-bold'>
                                 <p>T/r</p>
                                 <p>Kuni</p>
                                 <p>Tasnif</p>
                                 <p>Umumiy</p>
                             </div>
-                            <div className='space-y-1'>
+                            <div className='space-y-1 text-slate-400'>
                                 <p>#3456</p>
                                 <p>16/05/2025</p>
                                 <p>Yuborilgan</p>
@@ -136,13 +136,13 @@ const Index = () => {
                             </div>
                         </div>
                         <div className='border p-3 flex justify-between py-5 rounded-lg'>
-                            <div className='space-y-1 font-extrabold'>
+                            <div className='space-y-1 font-bold'>
                                 <p>T/r</p>
                                 <p>Kuni</p>
                                 <p>Tasnif</p>
                                 <p>Umumiy</p>
                             </div>
-                            <div className='space-y-1'>
+                            <div className='space-y-1 text-slate-400'>
                                 <p>#3456</p>
                                 <p>16/05/2025</p>
                                 <p>Yuborilgan</p>

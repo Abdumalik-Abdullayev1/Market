@@ -54,12 +54,12 @@ const Index = () => {
                         <DropdownMenu>
                             <DropdownMenuTrigger className='lg:hidden'>Open</DropdownMenuTrigger>
                             <DropdownMenuContent>
-                                <DropdownMenuLabel>Buyurtmalar</DropdownMenuLabel>
+                                <DropdownMenuLabel>Manzil</DropdownMenuLabel>
                                 <DropdownMenuSeparator />
                                 <DropdownMenuItem onClick={() => navigate('/profile')}>Profil</DropdownMenuItem>
                                 <DropdownMenuItem onClick={() => navigate('/edit-profile')}>Profilni tahrirlash</DropdownMenuItem>
-                                <DropdownMenuItem>Joylashuv</DropdownMenuItem>
-                                <DropdownMenuItem>Parol</DropdownMenuItem>
+                                <DropdownMenuItem onClick={()=> navigate('/history-orders')}>Buyurtmalar</DropdownMenuItem>
+                                <DropdownMenuItem onClick={()=> navigate('/edit-password')}>Parol</DropdownMenuItem>
                                 <DropdownMenuItem>Chiqish</DropdownMenuItem>
                             </DropdownMenuContent>
                         </DropdownMenu>

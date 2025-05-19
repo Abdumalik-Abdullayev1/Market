@@ -31,7 +31,7 @@ const Index = () => {
                         <VscLocation />
                         <span>Joylashuv</span>
                     </button>
-                    <button className='flex items-center gap-3 hover:bg-black hover:text-white duration-500 rounded-lg p-2 w-full text-slate-400' style={{ fontFamily: "OswaldLight", font: "extra bold" }}>
+                    <button onClick={()=> navigate('/edit-password')} className='flex items-center gap-3 hover:bg-black hover:text-white duration-500 rounded-lg p-2 w-full text-slate-400' style={{ fontFamily: "OswaldLight", font: "extra bold" }}>
                         <RxLockOpen2 />
                         <span>Parol</span>
                     </button>
@@ -40,8 +40,8 @@ const Index = () => {
                         <span>Chiqish</span>
                     </button>
                 </div>
-                <div className='col-span-4 lg:col-span-3 my-5'>
-                    <h2 style={{ fontFamily: 'Oswald', fontSize: "24px" }}>Salom, Mehmon!</h2>
+                <div className='col-span-4 lg:col-span-3 my-3'>
+                    <h2 style={{ fontFamily: 'Oswald', fontSize: "32px" }}>Salom, Mehmon!</h2>
                     <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 text-center p-5 gap-5'>
                         <button onClick={() => navigate('/profile')} className='border text-center p-10 max-w-xs hover:bg-black hover:text-white duration-500 rounded-lg'>
                             <p className='flex justify-center text-3xl'><BiUser /></p>
@@ -67,7 +67,7 @@ const Index = () => {
                             <p className='flex justify-center text-3xl'><GrMapLocation /></p>
                             <p style={{ fontFamily: 'OswaldLight' }}>Joylashuvni tahrirlash</p>
                         </button>
-                        <button className='border text-center p-10 max-w-xs hover:bg-black hover:text-white duration-500 rounded-lg lg:hidden'>
+                        <button onClick={()=> navigate('/edit-password')} className='border text-center p-10 max-w-xs hover:bg-black hover:text-white duration-500 rounded-lg lg:hidden'>
                             <p className='flex justify-center text-3xl'><RxLockOpen2 /></p>
                             <p style={{ fontFamily: 'OswaldLight' }}>Parol</p>
                         </button>

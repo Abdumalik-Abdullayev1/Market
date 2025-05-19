@@ -68,7 +68,7 @@ const Index = () => {
                             </DropdownMenuContent>
                         </DropdownMenu>
                     </div>
-                    <div className='grid grid-cols-1 sm:grid-cols-2 p-5 gap-5'>
+                    <div className='grid p-5 gap-5'>
                         <div className='bg-slate-100 p-3 rounded-lg space-y-2'>
                             <h3 style={{ fontFamily: 'Oswald' }}>Ismingiz:</h3>
                             <input type="text" placeholder='Ismingizni kiriting' className='bg-transparent w-full outline-none' />
@@ -77,7 +77,7 @@ const Index = () => {
                             <h3 style={{ fontFamily: 'Oswald' }}>Familiyangiz:</h3>
                             <input type="text" placeholder='Familiyangizni kiriting' className='bg-transparent w-full outline-none' />
                         </div>
-                        <div className='bg-slate-100 p-3 rounded-lg space-y-2 col-span-2'>
+                        <div className='bg-slate-100 p-3 rounded-lg space-y-2 sm:col-span-2'>
                             <h3 style={{ fontFamily: 'Oswald' }}>Ko'changiz:</h3>
                             <input type="text" placeholder="Ko'cha nomini kiriting" className='bg-transparent w-full outline-none' />
                         </div>

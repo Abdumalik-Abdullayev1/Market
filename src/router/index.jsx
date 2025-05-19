@@ -11,7 +11,8 @@ import {
   EditProfile,
   HistoryOrders,
   Address,
-  EditAddress
+  EditAddress,
+  EditPassword
 } from "../page";
 
 const Router = () => {
@@ -31,6 +32,7 @@ const Router = () => {
         <Route path="/history-orders" element={<HistoryOrders />} />
         <Route path="/address" element={<Address />} />
         <Route path="/edit-address" element={<EditAddress />} />
+        <Route path="/edit-password" element={<EditPassword />} />
       </Route>
     )
   );
